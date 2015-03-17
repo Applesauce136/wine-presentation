@@ -1,0 +1,51 @@
+s0: Title
+Wine
+Run Windows applications on Linux, BSD, Solaris, and Mac OS X
+Harrison Chiu
+
+s1: What is Wine?
+IS: a way to run Windows programs on Linuxa
+IS NOT: technically an emulator
+"Wine Is Not an Emulator"
+
+s2: Not an emulator?
+Emulator vs. Wine
+Emulator: makes the whole Windows
+Wine: Translates Windows API calls into POSIX calls
+What's a Windows API call?
+What's a POSIX call?
+
+s3: How Linux handles libraries
+nice thing on Wikipedia
+
+s4: How Windows handles libraries
+Another nice thing on Wikipedia
+
+s5: How does it work?
+Copy both of the diagrams
+
+s6: Why is it still in beta?
+Must reverse-engineer everything
+Windows keeps changing its API
+
+s7: Why use it?
+http://wiki.winehq.org/ImportanceOfWine
+Games
+Testing software
+Moves things to Linux
+
+s8: How can I use it?
+sudo apt-get install wine
+sudo apt-add-repository ppa:wine (???)
+etc
+invoke wine *.exe
+
+s9: Usage, continued
+winecfg
+winetricks
+
+Demo?
+"install" wine
+run winecfg
+"install" steam
+play steam game
